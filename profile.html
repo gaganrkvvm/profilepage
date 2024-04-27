@@ -1,0 +1,265 @@
+# profilepage
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="profile.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script>
+        window.onscroll = function () {
+            myFunction()
+        };
+
+
+        var navbar = document.getElementById("navbar");
+
+
+        var sticky = navbar.offsetTop;
+
+
+        function myFunction() {
+            if (window.pageYOffset >= sticky) {
+                nav.classList.add("sticky");
+            } else {
+                nav.classList.remove("sticky");
+            }
+        }</script>
+</head>
+
+<body>
+    <header>
+
+        <nav>
+            <div class="nav">
+                <ul>
+
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Skills</a></li>
+                    <li><a href="#">Education</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="#">Resume</a></li>
+
+
+                </ul>
+                <button id="prof">Profile</button>
+            </div>
+
+        </nav>
+
+
+        <div class="intro" >
+            <h2>Welcome to my site! </h2>
+            
+
+
+            <h1 style="text-transform:uppercase ;">Hello! I am GAGAN </h1>
+            
+        
+
+            <button><a href="#">More About me</a></button>
+
+        </div>
+
+    </header>
+    <main>
+        <div class="about">
+            <H1>ABOUT ME </H1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid quo veniam et laboriosam!</p>
+        </div>
+        <div class="name">
+
+            <img id="myself" src="bg2.jpg" alt="my image">
+            <H3>GAGAN KUMAR</H3>
+            <h4>FRONT END DEVELOPER</h4>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel officia nam repellendus dignissimos nisi
+                sapiente aspernatur nesciunt eligendi maxime magnam similique exercitationem, unde, laborum nemo modi,
+                suscipit cum dolore? Commodi, quos? Repudiandae, eligendi! Consequuntur optio perferendis iusto nisi,
+                porro natus voluptate. Debitis delectus modi accusantium.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis aliquid itaque ea ad voluptatem cumque
+                blanditiis, repudiandae provident sit natus deserunt nemo, voluptates placeat beatae amet fugiat.
+                Inventore, suscipit minima ea enim qui cupiditate?<br><button><a href="#">DOWNLOAD RESUME</a></button>
+            </p>
+
+        </div>
+        <div class="jai">
+            <DIV class="skills">
+                <H2>SKILLS</H2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod vitae ad officiis error.</p>
+            </DIV>
+
+            <div class=" html">
+                <h5>HTML5</h5>
+                <P>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus fuga rerum sapiente?</P>
+            </div>
+            <div class="pie" style="--p:80;--b:10px;--c:rgb(50, 87, 190);margin-left: 45vw;">80%</div>
+
+            <div class=" html css">
+                <h5>CSS3</h5>
+                <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus obcaecati esse illo.</P>
+            </div>
+            <div class="pie" style="--p:80;--b:10px;--c:rgb(32, 138, 200);margin-left: 45vw;">80%</div>
+
+            <div class=" html java">
+                <h5>JAVASCRIPT</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias nulla voluptas corporis?</p>
+            </div>
+            <div class="pie" style="--p:80;--b:10px;--c:rgb(15, 134, 202);margin-left: 45vw;">80%</div>
+
+            <div class=" html php">
+                <h5>PHP</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis tempora porro id!</p>
+            </div>
+            <div class="pie" style="--p:80;--b:10px;--c:rgb(14, 96, 144);margin-left: 45vw;">80%</div>
+
+
+        </div>
+
+
+
+        <div class="port">
+            <div class="container">
+                <div class="head">
+                    <h1> My Portfolio</h1>
+
+                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque assumenda aut nemo?</h3>
+                    <button class="btn-12 " style="margin-top: 45vh;margin-left: 5vw; "><span>more photos</span></button>
+
+                </div>
+                <div class="gallery">
+                    <div class="row2 box item1"
+                        style="background-image: url(https://images.unsplash.com/photo-1701086292958-f753f3bb5d27?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDIwfGJvOGpRS1RhRTBZfHxlbnwwfHx8fHw%3D);">
+                        New York</div>
+                    <div class="col2 box item2"
+                        style="background-image: url(https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHN0dWR5JTIwdGFibGUlMjBiYWNrZ3JvdW5kJTIwaW1hZ2V8ZW58MHx8MHx8fDA%3D);">
+                        Project2</div>
+                    <div class="box item3"
+                        style="background-image: url(https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHN0dWR5JTIwdGFibGUlMjBiYWNrZ3JvdW5kJTIwaW1hZ2V8ZW58MHx8MHx8fDA%3D);">
+                        Project3</div>
+                    <div class="row2 box item4"
+                        style="background-image: url(https://images.unsplash.com/photo-1707002569346-3d6cbca88cbb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDN8eEh4WVRNSExnT2N8fGVufDB8fHx8fA%3D%3D);">
+                        Project4</div>
+                    <div class="row2 box item5"
+                        style="background-image: url(https://images.unsplash.com/photo-1583458006012-cb6e59c4322a?q=80&w=1886&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);">
+                        Project5</div>
+                    <div class="box item6"
+                        style="background-image: url(https://images.unsplash.com/photo-1706730949208-c99b056eb80b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDR8SnBnNktpZGwtSGt8fGVufDB8fHx8fA%3D%3D);">
+                        Project6</div>
+                    <div class="col2 box item7" style="background-image: url
+                    (https://i.pinimg.com/236x/4f/a2/ed/4fa2edd80badf1cf4a8af4d58bd470dd.jpg));">project7</div>
+
+                </div>
+                
+            </div>
+
+
+
+
+
+
+
+
+
+        </div>
+        <div class="service" >
+            <h1 class="ser">SERVICES</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita incidunt esse id?</p>
+            <div class="conta">
+            <div class="hox web">
+                <img src="webl.svg" alt="">
+                <h5>WEB DEVELOPMENT</h5>
+                <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias voluptas consequatur fuga?
+                </P>
+            </div>
+            <div class=" hox manage">
+                <img src="vsde.svg" alt="">
+                <h5 style="text-transform: uppercase;">project management</h5>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore sapiente suscipit sequi?
+
+            </div>
+            <div class="hox soft">
+                <img src="ytlp.svg" alt="">
+                <h5 style="text-transform: uppercase;">Management Software</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quaerat architecto corporis.</p>
+            </div>
+            <div class="hox photo">
+                <img src="public.svg" alt="">
+                <h5>PHOTOGRAPHS</h5>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati aliquid corrupti rerum!
+            </div>
+        </div></div>
+        <div class="hire">
+            <h3>I am currently available for work</h3>
+        </div>
+        <div class="contact">
+            <div class="cont">
+                <h1>CONTACT</h1>
+                <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero dolores maiores fugit?</P>
+            </div>
+            <div class="grid">
+            <div class=" jox detail">
+                <h4>DETAILS</h4>
+                <P style="text-align: left;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, assumenda eos quaerat, repudiandae
+                    iste aut optio ipsam eum doloremque sunt quae commodi accusamus consectetur explicabo necessitatibus
+                    atque quibusdam inventore beatae adipisci repellat ull</P>
+                <ul>
+                    <li><img src="cont.svg" alt="">Mobile-874669346</li>
+                    <li><img src="eml.svg" alt="">Email-gahanojjfoj#</li>
+                    <li><img src="webl.svg" alt="">Website-gagan.fijid</li>
+                </ul>
+            </div><form class=" jox form">
+                <p class="title">Register </p>
+                <p class="message">Signup now and get full access to our app. </p>
+                    <div class="flex">
+                    <label>
+                        <input class="input" type="text" placeholder="" required="">
+                        <span>Firstname</span>
+                    </label>
+            
+                    <label>
+                        <input class="input" type="text" placeholder="" required="">
+                        <span>Lastname</span>
+                    </label>
+                </div>  
+                        
+                <label>
+                    <input class="input" type="email" placeholder="" required="">
+                    <span>Email</span>
+                </label> 
+                    
+                <label>
+                    <input class="input" type="password" placeholder="" required="">
+                    <span>Password</span>
+                </label>
+                <label>
+                    <input class="input" type="password" placeholder="" required="">
+                    <span>Confirm password</span>
+                </label>
+                <button class="submit">Submit</button>
+                <p class="signin">Already have an acount ? <a href="#">Signin</a> </p>
+            </form>
+
+        
+        </div>
+
+        </div>
+
+    </main>
+    <footer>
+        <p style="display: inline;">&copy; 2024 Your Website. All rights reserved.</p>
+        <div class="foot">
+            
+        <img src="https://imgs.search.brave.com/YSRSNmvsiCAw5ricVWKrUj5rUzSqLAakhu0tC6JlN4w/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMuZGVzaWduYm9v/bS5jb20vd3AtY29u/dGVudC91cGxvYWRz/LzIwMjMvMDkvZmFj/ZWJvb2stbmV3LWxv/Z28tY2hhbmdlLWRl/c2lnbmJvb20tMDIu/anBn" alt="fb" style="width: 40px; border-radius: 50%; height: 40px;">
+        <img src="https://imgs.search.brave.com/5Bu17WEFyzcW9vxy0fo6gYhyYKvxN7WLG7mX_gThUc8/rs:fit:860:0:0/g:ce/aHR0cHM6Ly92YXJp/ZXR5LmNvbS93cC1j/b250ZW50L3VwbG9h/ZHMvMjAyMy8wOC9Y/LUxvZ28tVHdpdHRl/ci5wbmc_dz03NzEm/aD00MzQmY3JvcD0x" alt="twitter"  style="width: 40px; border-radius: 50%;
+        height: 40px;">
+        <img src="https://imgs.search.brave.com/FmUZXvAg5PpCriub4NHVAjY6hRUWXwVRkivCyUpMac0/rs:fit:860:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzA1LzMyLzIwLzAz/LzM2MF9GXzUzMjIw/MDM4Ml9LTDZDRGFa/Y3VzaVpPOW5PNVRE/N2hXUUV6OEtvNkJa/Qi5qcGc" alt="instagram" style="width: 40px;border-radius: 50%;">
+        <img src="https://imgs.search.brave.com/Pdd3H2PaC3wsxq8hj32-dlYEmjucZAHWQmmJVv4lQYo/rs:fit:500:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy8w/LzA3L1dpa2lwZWRp/YV9sb2dvXyhzdmcp/LnN2Zw.svg" alt="wiki" style="width: 40px; border-radius: 50%;">
+    </footer></div>
+
+</body>
+
+</html>
